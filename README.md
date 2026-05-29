@@ -1,5 +1,5 @@
 # Stock Price Prediction with LSTM
-
+ 
 Stock Price Prediction with LSTM is a hands-on deep learning project that demonstrates how sequential models can be applied to real-world financial data. Using historical OHLCV (Open, High, Low, Close, Volume) data, the project builds and trains an LSTM network to capture time-dependent patterns in stock movements.
 
 The pipeline handles everything from preprocessing and sliding-window dataset creation to model training with early stopping and evaluation. The results are presented with intuitive visualizations — training and validation loss curves, predicted vs. actual stock prices, and short-horizon forecasts into the future. Metrics such as RMSE, MAE, and MAPE provide quantitative insight into performance.
