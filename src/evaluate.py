@@ -3,7 +3,7 @@ from utils import make_windows, rmse, mae, mape
 import joblib
 import matplotlib.pyplot as plt
 import torch.nn as nn
-  
+   
 class LSTMForecaster(nn.Module):
     def __init__(self, input_size=1, hidden_size=64, num_layers=2, dropout=0.2, horizon=1):
         super().__init__()
