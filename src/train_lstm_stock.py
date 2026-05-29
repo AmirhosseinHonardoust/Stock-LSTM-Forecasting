@@ -7,7 +7,7 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from utils import make_windows, scale_series, rmse, mae, mape, inverse_scale
-
+ 
 class LSTMForecaster(nn.Module):
     def __init__(self, input_size=1, hidden_size=64, num_layers=2, dropout=0.2, horizon=1):
         super().__init__()
