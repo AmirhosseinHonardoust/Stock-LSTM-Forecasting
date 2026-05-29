@@ -7,7 +7,7 @@ def make_windows(series: np.ndarray, lookback: int, horizon: int):
         X.append(series[i:i+lookback])
         y.append(series[i+lookback:i+lookback+horizon])
     return np.array(X), np.array(y)
-
+ 
 def scale_series(arr: np.ndarray, out_path: str):
     scaler = StandardScaler()
     arr2d = arr.reshape(-1, 1)
